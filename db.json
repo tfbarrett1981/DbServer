@@ -55,6 +55,23 @@
       "TagId": 4
     }
   ],
+  "Meta": [
+    {
+      "Id": 1,
+      "Name": "Invoice Number",
+      "Type": "string"
+    },
+    {
+      "Id": 2,
+      "Name": "Fiscal Year",
+      "Type": "number"
+    },
+    {
+      "Id": 3,
+      "Name": "Period",
+      "Type": "date"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
