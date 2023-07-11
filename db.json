@@ -5,13 +5,120 @@
       "title": "hello"
     }
   ],
-  "DocumentCollections": [{"Id": 1, "Name": "Test"}, {"Id": 2, "Name": "LDI OnBase"}],
-  "DocumentTags": [{"Id": 1, "Name": "Invoice"}, {"Id": 2, "Name": "AP Document"}, {"Id": 3, "Name": "Type 3"}, {"Id": 4, "Name": "Type 4"}],
-  "DocumentCollectionTagMap": [{"DocCollectionId": 1, "TagId": 1},{"DocCollectionId": 1, "TagId": 2}, {"DocCollectionId": 2, "TagId": 1}, {"DocCollectionId": 2, "TagId": 3}, {"DocCollectionId": 2, "TagId": 4}],
-  "Meta": [{"Id": 1, "Name": "Invoice Number", "Type": "string"}, {"Id": 2, "Name": "Fiscal Year", "Type": "number"}, {"Id": 3, "Name": "Period", "Type": "date"}],
-  "TagMetaMap": [{"Id": 1, "TagId": 1, "MetaId": 1},{"Id": 2, "TagId":2, "MetaId": 2},{"Id": 3, "TagId":2, "MetaId": 3}],
-  "Documents": [{"Id": 1, "DocCollectionId": 1, "Name": "A1", "FileName": "A1.docx"}, {"Id": 2, "DocCollectionId": 2, "Name": "B2", "FileName": "B2.docx"}],
-  "DocumentMeta": [{"Id": 1, "DocumentId": 1, "TagId": 1, "MetaId": 1, "Value": "A12345"},{"Id": 2, "DocumentId": 1, "TagId": 1, "MetaId": 2, "Value": "1993"}],
+  "DocumentCollections": [
+    {
+      "Id": 1,
+      "Name": "Test"
+    },
+    {
+      "Id": 2,
+      "Name": "LDI OnBase"
+    }
+  ],
+  "DocumentTags": [
+    {
+      "Id": 1,
+      "Name": "Invoice"
+    },
+    {
+      "Id": 2,
+      "Name": "AP Document"
+    },
+    {
+      "Id": 3,
+      "Name": "Type 3"
+    },
+    {
+      "Id": 4,
+      "Name": "Type 4"
+    }
+  ],
+  "DocumentCollectionTagMap": [
+    {
+      "DocCollectionId": 1,
+      "TagId": 1
+    },
+    {
+      "DocCollectionId": 1,
+      "TagId": 2
+    },
+    {
+      "DocCollectionId": 2,
+      "TagId": 1
+    },
+    {
+      "DocCollectionId": 2,
+      "TagId": 3
+    },
+    {
+      "DocCollectionId": 2,
+      "TagId": 4
+    }
+  ],
+  "Meta": [
+    {
+      "Id": 1,
+      "Name": "Invoice Number",
+      "Type": "string"
+    },
+    {
+      "Id": 2,
+      "Name": "Fiscal Year",
+      "Type": "number"
+    },
+    {
+      "Id": 3,
+      "Name": "Period",
+      "Type": "date"
+    }
+  ],
+  "TagMetaMap": [
+    {
+      "Id": 1,
+      "TagId": 1,
+      "MetaId": 1
+    },
+    {
+      "Id": 2,
+      "TagId": 2,
+      "MetaId": 2
+    },
+    {
+      "Id": 3,
+      "TagId": 2,
+      "MetaId": 3
+    }
+  ],
+  "Documents": [
+    {
+      "Id": 1,
+      "DocCollectionId": 1,
+      "Name": "A1",
+      "FileName": "A1.docx"
+    },
+    {
+      "Id": 2,
+      "DocCollectionId": 2,
+      "Name": "B2",
+      "FileName": "B2.docx"
+    }
+  ],
+  "DocumentMeta": [
+    {
+      "Id": 1,
+      "DocumentId": 1,
+      "TagId": 1,
+      "MetaId": 1,
+      "Value": "A12345"
+    },
+    {
+      "Id": 2,
+      "DocumentId": 1,
+      "TagId": 1,
+      "MetaId": 2,
+      "Value": "1993"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
