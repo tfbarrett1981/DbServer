@@ -5,7 +5,7 @@
       "title": "hello"
     }
   ],
-  "DocumentCollections" : [{"Id": 1, "Name": "Test"}, {"Id": 2, "Name": "LDI OnBase"}], 
+  "DocumentCollections": [{"Id": 1, "Name": "Test"}, {"Id": 2, "Name": "LDI OnBase"}], 
   "profile": {
     "name": "typicode"
   }
